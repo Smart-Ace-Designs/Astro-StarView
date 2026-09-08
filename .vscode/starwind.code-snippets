@@ -1,320 +1,956 @@
 {
   "Starwind UI Accordion Import": {
-    "scope": "typescript",
-    "prefix": "starwind-accordion-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-accordion",
     "description": "Starwind UI accordion import",
     "body": "import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from \"@/components/starwind/accordion\";",
   },
+  "Starwind UI Accordion (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-accordion",
+    "description": "Starwind UI accordion import",
+    "body": "import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from \"@/components/starwind-vue/accordion\";",
+  },
   "Starwind UI Alert Import": {
-    "scope": "typescript",
-    "prefix": "starwind-alert-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-alert",
     "description": "Starwind UI alert import",
     "body": "import { Alert, AlertDescription, AlertTitle } from \"@/components/starwind/alert\";",
   },
+  "Starwind UI Alert (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-alert",
+    "description": "Starwind UI alert import",
+    "body": "import { Alert, AlertDescription, AlertTitle } from \"@/components/starwind-vue/alert\";",
+  },
   "Starwind UI Alert Dialog Import": {
-    "scope": "typescript",
-    "prefix": "starwind-alert-dialog-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-alert-dialog",
     "description": "Starwind UI alert dialog import",
     "body": "import { AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogFooter, AlertDialogTitle, AlertDialogDescription, AlertDialogCancel, AlertDialogAction } from \"@/components/starwind/alert-dialog\";",
   },
+  "Starwind UI Alert Dialog (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-alert-dialog",
+    "description": "Starwind UI alert dialog import",
+    "body": "import { AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogFooter, AlertDialogTitle, AlertDialogDescription, AlertDialogCancel, AlertDialogAction } from \"@/components/starwind-vue/alert-dialog\";",
+  },
   "Starwind UI Aspect Ratio Import": {
-    "scope": "typescript",
-    "prefix": "starwind-aspect-ratio-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-aspect-ratio",
     "description": "Starwind UI aspect ratio import",
     "body": "import { AspectRatio } from \"@/components/starwind/aspect-ratio\";",
   },
+  "Starwind UI Aspect Ratio (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-aspect-ratio",
+    "description": "Starwind UI aspect ratio import",
+    "body": "import { AspectRatio } from \"@/components/starwind-vue/aspect-ratio\";",
+  },
   "Starwind UI Avatar Import": {
-    "scope": "typescript",
-    "prefix": "starwind-avatar-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-avatar",
     "description": "Starwind UI avatar import",
     "body": "import { Avatar, AvatarImage, AvatarFallback } from \"@/components/starwind/avatar\";",
   },
+  "Starwind UI Avatar (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-avatar",
+    "description": "Starwind UI avatar import",
+    "body": "import { Avatar, AvatarImage, AvatarFallback } from \"@/components/starwind-vue/avatar\";",
+  },
   "Starwind UI Badge Import": {
-    "scope": "typescript",
-    "prefix": "starwind-badge-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-badge",
     "description": "Starwind UI badge import",
     "body": "import { Badge } from \"@/components/starwind/badge\";",
   },
+  "Starwind UI Badge (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-badge",
+    "description": "Starwind UI badge import",
+    "body": "import { Badge } from \"@/components/starwind-vue/badge\";",
+  },
   "Starwind UI Breadcrumb Import": {
-    "scope": "typescript",
-    "prefix": "starwind-breadcrumb-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-breadcrumb",
     "description": "Starwind UI breadcrumb import",
     "body": "import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator, BreadcrumbEllipsis } from \"@/components/starwind/breadcrumb\";",
   },
+  "Starwind UI Breadcrumb (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-breadcrumb",
+    "description": "Starwind UI breadcrumb import",
+    "body": "import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator, BreadcrumbEllipsis } from \"@/components/starwind-vue/breadcrumb\";",
+  },
   "Starwind UI Button Import": {
-    "scope": "typescript",
-    "prefix": "starwind-button-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-button",
     "description": "Starwind UI button import",
     "body": "import { Button } from \"@/components/starwind/button\";",
   },
+  "Starwind UI Button (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-button",
+    "description": "Starwind UI button import",
+    "body": "import { Button } from \"@/components/starwind-vue/button\";",
+  },
   "Starwind UI Button Group Import": {
-    "scope": "typescript",
-    "prefix": "starwind-button-group-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-button-group",
     "description": "Starwind UI button group import",
     "body": "import { ButtonGroup, ButtonGroupSeparator, ButtonGroupText } from \"@/components/starwind/button-group\";",
   },
+  "Starwind UI Button Group (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-button-group",
+    "description": "Starwind UI button group import",
+    "body": "import { ButtonGroup, ButtonGroupSeparator, ButtonGroupText } from \"@/components/starwind-vue/button-group\";",
+  },
   "Starwind UI Card Import": {
-    "scope": "typescript",
-    "prefix": "starwind-card-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-card",
     "description": "Starwind UI card import",
     "body": "import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from \"@/components/starwind/card\";",
   },
+  "Starwind UI Card (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-card",
+    "description": "Starwind UI card import",
+    "body": "import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from \"@/components/starwind-vue/card\";",
+  },
   "Starwind UI Carousel Import": {
-    "scope": "typescript",
-    "prefix": "starwind-carousel-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-carousel",
     "description": "Starwind UI carousel import",
     "body": "import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from \"@/components/starwind/carousel\";",
   },
+  "Starwind UI Carousel (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-carousel",
+    "description": "Starwind UI carousel import",
+    "body": "import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from \"@/components/starwind-vue/carousel\";",
+  },
   "Starwind UI Checkbox Import": {
-    "scope": "typescript",
-    "prefix": "starwind-checkbox-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-checkbox",
     "description": "Starwind UI checkbox import",
     "body": "import { Checkbox } from \"@/components/starwind/checkbox\";",
   },
+  "Starwind UI Checkbox (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-checkbox",
+    "description": "Starwind UI checkbox import",
+    "body": "import { Checkbox } from \"@/components/starwind-vue/checkbox\";",
+  },
   "Starwind UI Collapsible Import": {
-    "scope": "typescript",
-    "prefix": "starwind-collapsible-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-collapsible",
     "description": "Starwind UI collapsible import",
     "body": "import { Collapsible, CollapsibleTrigger, CollapsibleContent } from \"@/components/starwind/collapsible\";",
   },
+  "Starwind UI Collapsible (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-collapsible",
+    "description": "Starwind UI collapsible import",
+    "body": "import { Collapsible, CollapsibleTrigger, CollapsibleContent } from \"@/components/starwind-vue/collapsible\";",
+  },
   "Starwind UI Color Picker Import": {
-    "scope": "typescript",
-    "prefix": "starwind-color-picker-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-color-picker",
     "description": "Starwind UI color picker import",
     "body": "import { ColorPicker } from \"@/components/starwind/color-picker\";",
   },
+  "Starwind UI Color Picker (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-color-picker",
+    "description": "Starwind UI color picker import",
+    "body": "import { ColorPicker } from \"@/components/starwind-vue/color-picker\";",
+  },
   "Starwind UI Combobox Import": {
-    "scope": "typescript",
-    "prefix": "starwind-combobox-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-combobox",
     "description": "Starwind UI combobox import",
     "body": "import { Select, SelectContent, SelectGroup, SelectItem, SelectSearch, SelectTrigger, SelectValue } from \"@/components/starwind/select\";",
   },
+  "Starwind UI Combobox (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-combobox",
+    "description": "Starwind UI combobox import",
+    "body": "import { Select, SelectContent, SelectGroup, SelectItem, SelectSearch, SelectTrigger, SelectValue } from \"@/components/starwind-vue/select\";",
+  },
   "Starwind UI Context Menu Import": {
-    "scope": "typescript",
-    "prefix": "starwind-context-menu-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-context-menu",
     "description": "Starwind UI context menu import",
     "body": "import { ContextMenu, ContextMenuContent, ContextMenuGroup, ContextMenuItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger } from \"@/components/starwind/context-menu\";",
   },
+  "Starwind UI Context Menu (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-context-menu",
+    "description": "Starwind UI context menu import",
+    "body": "import { ContextMenu, ContextMenuContent, ContextMenuGroup, ContextMenuItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger } from \"@/components/starwind-vue/context-menu\";",
+  },
   "Starwind UI Dialog Import": {
-    "scope": "typescript",
-    "prefix": "starwind-dialog-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-dialog",
     "description": "Starwind UI dialog import",
     "body": "import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter, DialogClose } from \"@/components/starwind/dialog\";",
   },
+  "Starwind UI Dialog (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-dialog",
+    "description": "Starwind UI dialog import",
+    "body": "import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter, DialogClose } from \"@/components/starwind-vue/dialog\";",
+  },
   "Starwind UI Dropdown Import": {
-    "scope": "typescript",
-    "prefix": "starwind-dropdown-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-dropdown",
     "description": "Starwind UI dropdown import",
     "body": "import { Dropdown, DropdownContent, DropdownItem, DropdownLabel, DropdownSeparator, DropdownShortcut, DropdownSub, DropdownSubContent, DropdownSubTrigger, DropdownTrigger } from \"@/components/starwind/dropdown\";",
   },
+  "Starwind UI Dropdown (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-dropdown",
+    "description": "Starwind UI dropdown import",
+    "body": "import { Dropdown, DropdownContent, DropdownItem, DropdownLabel, DropdownSeparator, DropdownShortcut, DropdownSub, DropdownSubContent, DropdownSubTrigger, DropdownTrigger } from \"@/components/starwind-vue/dropdown\";",
+  },
   "Starwind UI Dropzone Import": {
-    "scope": "typescript",
-    "prefix": "starwind-dropzone-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-dropzone",
     "description": "Starwind UI dropzone import",
     "body": "import { Dropzone, DropzoneFilesList, DropzoneLoadingIndicator, DropzoneUploadIndicator } from \"@/components/starwind/dropzone\";",
   },
+  "Starwind UI Dropzone (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-dropzone",
+    "description": "Starwind UI dropzone import",
+    "body": "import { Dropzone, DropzoneFilesList, DropzoneLoadingIndicator, DropzoneUploadIndicator } from \"@/components/starwind-vue/dropzone\";",
+  },
   "Starwind UI Field Import": {
-    "scope": "typescript",
-    "prefix": "starwind-field-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-field",
     "description": "Starwind UI field import",
     "body": "import { Field, FieldControl, FieldDescription, FieldError, FieldLabel, FieldValidity } from \"@/components/starwind/field\";",
   },
+  "Starwind UI Field (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-field",
+    "description": "Starwind UI field import",
+    "body": "import { Field, FieldControl, FieldDescription, FieldError, FieldLabel, FieldValidity } from \"@/components/starwind-vue/field\";",
+  },
   "Starwind UI Form Import": {
-    "scope": "typescript",
-    "prefix": "starwind-form-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-form",
     "description": "Starwind UI form import",
     "body": "import { Form, FormErrorSummary } from \"@/components/starwind/form\";",
   },
+  "Starwind UI Form (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-form",
+    "description": "Starwind UI form import",
+    "body": "import { Form, FormErrorSummary } from \"@/components/starwind-vue/form\";",
+  },
   "Starwind UI Hover Card Import": {
-    "scope": "typescript",
-    "prefix": "starwind-hover-card-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-hover-card",
     "description": "Starwind UI hover card import",
     "body": "import { HoverCard, HoverCardContent, HoverCardTrigger } from \"@/components/starwind/hover-card\";",
   },
+  "Starwind UI Hover Card (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-hover-card",
+    "description": "Starwind UI hover card import",
+    "body": "import { HoverCard, HoverCardContent, HoverCardTrigger } from \"@/components/starwind-vue/hover-card\";",
+  },
   "Starwind UI Image Import": {
-    "scope": "typescript",
-    "prefix": "starwind-image-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-image",
     "description": "Starwind UI image import",
     "body": "import { Image } from \"@/components/starwind/image\";",
   },
+  "Starwind UI Image (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-image",
+    "description": "Starwind UI image import",
+    "body": "import { Image } from \"@/components/starwind-vue/image\";",
+  },
   "Starwind UI Input Import": {
-    "scope": "typescript",
-    "prefix": "starwind-input-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-input",
     "description": "Starwind UI input import",
     "body": "import { Input } from \"@/components/starwind/input\";",
   },
+  "Starwind UI Input (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-input",
+    "description": "Starwind UI input import",
+    "body": "import { Input } from \"@/components/starwind-vue/input\";",
+  },
   "Starwind UI Input Group Import": {
-    "scope": "typescript",
-    "prefix": "starwind-input-group-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-input-group",
     "description": "Starwind UI input group import",
     "body": "import { InputGroup, InputGroupAddon, InputGroupInput } from \"@/components/starwind/input-group\";",
   },
+  "Starwind UI Input Group (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-input-group",
+    "description": "Starwind UI input group import",
+    "body": "import { InputGroup, InputGroupAddon, InputGroupInput } from \"@/components/starwind-vue/input-group\";",
+  },
   "Starwind UI Input OTP Import": {
-    "scope": "typescript",
-    "prefix": "starwind-input-otp-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-input-otp",
     "description": "Starwind UI input OTP import",
     "body": "import { InputOtp, InputOtpGroup, InputOtpSlot, InputOtpSeparator, REGEXP_ONLY_DIGITS_AND_CHARS } from \"@/components/starwind/input-otp\";",
   },
+  "Starwind UI Input OTP (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-input-otp",
+    "description": "Starwind UI input OTP import",
+    "body": "import { InputOtp, InputOtpGroup, InputOtpSlot, InputOtpSeparator, REGEXP_ONLY_DIGITS_AND_CHARS } from \"@/components/starwind-vue/input-otp\";",
+  },
   "Starwind UI Item Import": {
-    "scope": "typescript",
-    "prefix": "starwind-item-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-item",
     "description": "Starwind UI item import",
     "body": "import { Item, ItemContent, ItemTitle, ItemDescription, ItemActions, ItemMedia, ItemHeader, ItemFooter, ItemGroup, ItemSeparator } from \"@/components/starwind/item\";",
   },
+  "Starwind UI Item (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-item",
+    "description": "Starwind UI item import",
+    "body": "import { Item, ItemContent, ItemTitle, ItemDescription, ItemActions, ItemMedia, ItemHeader, ItemFooter, ItemGroup, ItemSeparator } from \"@/components/starwind-vue/item\";",
+  },
   "Starwind UI Label Import": {
-    "scope": "typescript",
-    "prefix": "starwind-label-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-label",
     "description": "Starwind UI label import",
     "body": "import { Label } from \"@/components/starwind/label\";",
   },
+  "Starwind UI Label (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-label",
+    "description": "Starwind UI label import",
+    "body": "import { Label } from \"@/components/starwind-vue/label\";",
+  },
   "Starwind UI Native Select Import": {
-    "scope": "typescript",
-    "prefix": "starwind-native-select-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-native-select",
     "description": "Starwind UI native select import",
     "body": "import { NativeSelect, NativeSelectOption } from \"@/components/starwind/native-select\";",
   },
+  "Starwind UI Native Select (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-native-select",
+    "description": "Starwind UI native select import",
+    "body": "import { NativeSelect, NativeSelectOption } from \"@/components/starwind-vue/native-select\";",
+  },
   "Starwind UI Navigation Menu Import": {
-    "scope": "typescript",
-    "prefix": "starwind-navigation-menu-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-navigation-menu",
     "description": "Starwind UI navigation menu import",
     "body": "import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from \"@/components/starwind/navigation-menu\";",
   },
+  "Starwind UI Navigation Menu (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-navigation-menu",
+    "description": "Starwind UI navigation menu import",
+    "body": "import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from \"@/components/starwind-vue/navigation-menu\";",
+  },
   "Starwind UI Pagination Import": {
-    "scope": "typescript",
-    "prefix": "starwind-pagination-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-pagination",
     "description": "Starwind UI pagination import",
     "body": "import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationPrevious, PaginationNext, PaginationEllipsis } from \"@/components/starwind/pagination\";",
   },
+  "Starwind UI Pagination (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-pagination",
+    "description": "Starwind UI pagination import",
+    "body": "import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationPrevious, PaginationNext, PaginationEllipsis } from \"@/components/starwind-vue/pagination\";",
+  },
   "Starwind UI Popover Import": {
-    "scope": "typescript",
-    "prefix": "starwind-popover-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-popover",
     "description": "Starwind UI popover import",
     "body": "import { Popover, PopoverContent, PopoverDescription, PopoverHeader, PopoverTitle, PopoverTrigger} from \"@/components/starwind/popover\";",
   },
+  "Starwind UI Popover (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-popover",
+    "description": "Starwind UI popover import",
+    "body": "import { Popover, PopoverContent, PopoverDescription, PopoverHeader, PopoverTitle, PopoverTrigger} from \"@/components/starwind-vue/popover\";",
+  },
   "Starwind UI Progress Import": {
-    "scope": "typescript",
-    "prefix": "starwind-progress-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-progress",
     "description": "Starwind UI progress import",
     "body": "import { Progress } from \"@/components/starwind/progress\";",
   },
+  "Starwind UI Progress (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-progress",
+    "description": "Starwind UI progress import",
+    "body": "import { Progress } from \"@/components/starwind-vue/progress\";",
+  },
   "Starwind UI Prose Import": {
-    "scope": "typescript",
-    "prefix": "starwind-prose-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-prose",
     "description": "Starwind UI prose import",
     "body": "import { Prose } from \"@/components/starwind/prose\";",
   },
+  "Starwind UI Prose (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-prose",
+    "description": "Starwind UI prose import",
+    "body": "import { Prose } from \"@/components/starwind-vue/prose\";",
+  },
   "Starwind UI Radio Group Import": {
-    "scope": "typescript",
-    "prefix": "starwind-radio-group-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-radio-group",
     "description": "Starwind UI radio group import",
     "body": "import { RadioGroup, RadioGroupItem } from \"@/components/starwind/radio-group\";",
   },
+  "Starwind UI Radio Group (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-radio-group",
+    "description": "Starwind UI radio group import",
+    "body": "import { RadioGroup, RadioGroupItem } from \"@/components/starwind-vue/radio-group\";",
+  },
   "Starwind UI Scroll Area Import": {
-    "scope": "typescript",
-    "prefix": "starwind-scroll-area-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-scroll-area",
     "description": "Starwind UI scroll area import",
     "body": "import { ScrollArea, ScrollBar } from \"@/components/starwind/scroll-area\";",
   },
+  "Starwind UI Scroll Area (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-scroll-area",
+    "description": "Starwind UI scroll area import",
+    "body": "import { ScrollArea, ScrollBar } from \"@/components/starwind-vue/scroll-area\";",
+  },
   "Starwind UI Select Import": {
-    "scope": "typescript",
-    "prefix": "starwind-select-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-select",
     "description": "Starwind UI select import",
     "body": "import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem, SelectGroup, SelectLabel, SelectSeparator } from \"@/components/starwind/select\";",
   },
+  "Starwind UI Select (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-select",
+    "description": "Starwind UI select import",
+    "body": "import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem, SelectGroup, SelectLabel, SelectSeparator } from \"@/components/starwind-vue/select\";",
+  },
   "Starwind UI Separator Import": {
-    "scope": "typescript",
-    "prefix": "starwind-separator-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-separator",
     "description": "Starwind UI separator import",
     "body": "import { Separator } from \"@/components/starwind/separator\";",
   },
+  "Starwind UI Separator (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-separator",
+    "description": "Starwind UI separator import",
+    "body": "import { Separator } from \"@/components/starwind-vue/separator\";",
+  },
   "Starwind UI Sheet Import": {
-    "scope": "typescript",
-    "prefix": "starwind-sheet-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-sheet",
     "description": "Starwind UI sheet import",
     "body": "import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle, SheetDescription, SheetFooter, SheetClose } from \"@/components/starwind/sheet\";",
   },
+  "Starwind UI Sheet (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-sheet",
+    "description": "Starwind UI sheet import",
+    "body": "import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle, SheetDescription, SheetFooter, SheetClose } from \"@/components/starwind-vue/sheet\";",
+  },
   "Starwind UI Sidebar Import": {
-    "scope": "typescript",
-    "prefix": "starwind-sidebar-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-sidebar",
     "description": "Starwind UI sidebar import",
     "body": "import { Sidebar, SidebarProvider, SidebarContent, SidebarHeader, SidebarFooter, SidebarGroup, SidebarGroupLabel, SidebarGroupContent, SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarTrigger } from \"@/components/starwind/sidebar\";",
   },
+  "Starwind UI Sidebar (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-sidebar",
+    "description": "Starwind UI sidebar import",
+    "body": "import { Sidebar, SidebarProvider, SidebarContent, SidebarHeader, SidebarFooter, SidebarGroup, SidebarGroupLabel, SidebarGroupContent, SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarTrigger } from \"@/components/starwind-vue/sidebar\";",
+  },
   "Starwind UI Skeleton Import": {
-    "scope": "typescript",
-    "prefix": "starwind-skeleton-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-skeleton",
     "description": "Starwind UI skeleton import",
     "body": "import { Skeleton } from \"@/components/starwind/skeleton\";",
   },
+  "Starwind UI Skeleton (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-skeleton",
+    "description": "Starwind UI skeleton import",
+    "body": "import { Skeleton } from \"@/components/starwind-vue/skeleton\";",
+  },
   "Starwind UI Slider Import": {
-    "scope": "typescript",
-    "prefix": "starwind-slider-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-slider",
     "description": "Starwind UI slider import",
     "body": "import { Slider } from \"@/components/starwind/slider\";",
   },
+  "Starwind UI Slider (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-slider",
+    "description": "Starwind UI slider import",
+    "body": "import { Slider } from \"@/components/starwind-vue/slider\";",
+  },
   "Starwind UI Spinner Import": {
-    "scope": "typescript",
-    "prefix": "starwind-spinner-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-spinner",
     "description": "Starwind UI spinner import",
     "body": "import { Spinner } from \"@/components/starwind/spinner\";",
   },
+  "Starwind UI Spinner (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-spinner",
+    "description": "Starwind UI spinner import",
+    "body": "import { Spinner } from \"@/components/starwind-vue/spinner\";",
+  },
   "Starwind UI Switch Import": {
-    "scope": "typescript",
-    "prefix": "starwind-switch-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-switch",
     "description": "Starwind UI switch import",
     "body": "import { Switch } from \"@/components/starwind/switch\";",
   },
+  "Starwind UI Switch (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-switch",
+    "description": "Starwind UI switch import",
+    "body": "import { Switch } from \"@/components/starwind-vue/switch\";",
+  },
   "Starwind UI Table Import": {
-    "scope": "typescript",
-    "prefix": "starwind-table-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-table",
     "description": "Starwind UI table import",
     "body": "import { Table, TableHeader, TableHead, TableBody, TableRow, TableCell, TableCaption, TableFoot } from \"@/components/starwind/table\";",
   },
+  "Starwind UI Table (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-table",
+    "description": "Starwind UI table import",
+    "body": "import { Table, TableHeader, TableHead, TableBody, TableRow, TableCell, TableCaption, TableFoot } from \"@/components/starwind-vue/table\";",
+  },
   "Starwind UI Tabs Import": {
-    "scope": "typescript",
-    "prefix": "starwind-tabs-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-tabs",
     "description": "Starwind UI tabs import",
     "body": "import { Tabs, TabsList, TabsTrigger, TabsContent } from \"@/components/starwind/tabs\";",
   },
+  "Starwind UI Tabs (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-tabs",
+    "description": "Starwind UI tabs import",
+    "body": "import { Tabs, TabsList, TabsTrigger, TabsContent } from \"@/components/starwind-vue/tabs\";",
+  },
   "Starwind UI Textarea Import": {
-    "scope": "typescript",
-    "prefix": "starwind-textarea-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-textarea",
     "description": "Starwind UI textarea import",
     "body": "import { Textarea } from \"@/components/starwind/textarea\";",
   },
+  "Starwind UI Textarea (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-textarea",
+    "description": "Starwind UI textarea import",
+    "body": "import { Textarea } from \"@/components/starwind-vue/textarea\";",
+  },
   "Starwind UI Theme Toggle Import": {
-    "scope": "typescript",
-    "prefix": "starwind-theme-toggle-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-theme-toggle",
     "description": "Starwind UI theme toggle import",
     "body": "import { ThemeToggle } from \"@/components/starwind/theme-toggle\";",
   },
+  "Starwind UI Theme Toggle (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-theme-toggle",
+    "description": "Starwind UI theme toggle import",
+    "body": "import { ThemeToggle } from \"@/components/starwind-vue/theme-toggle\";",
+  },
   "Starwind UI Toast Import": {
-    "scope": "typescript",
-    "prefix": "starwind-toast-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-toast",
     "description": "Starwind UI toast import",
     "body": "import { Toaster } from \"@/components/starwind/toast\";",
   },
+  "Starwind UI Toast (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-toast",
+    "description": "Starwind UI toast import",
+    "body": "import { Toaster } from \"@/components/starwind-vue/toast\";",
+  },
   "Starwind UI Toggle Import": {
-    "scope": "typescript",
-    "prefix": "starwind-toggle-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-toggle",
     "description": "Starwind UI toggle import",
     "body": "import { Toggle } from \"@/components/starwind/toggle\";",
   },
+  "Starwind UI Toggle (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-toggle",
+    "description": "Starwind UI toggle import",
+    "body": "import { Toggle } from \"@/components/starwind-vue/toggle\";",
+  },
   "Starwind UI Toggle Group Import": {
-    "scope": "typescript",
-    "prefix": "starwind-toggle-group-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-toggle-group",
     "description": "Starwind UI toggle group import",
     "body": "import { ToggleGroup, ToggleGroupItem } from \"@/components/starwind/toggle-group\";",
   },
+  "Starwind UI Toggle Group (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-toggle-group",
+    "description": "Starwind UI toggle group import",
+    "body": "import { ToggleGroup, ToggleGroupItem } from \"@/components/starwind-vue/toggle-group\";",
+  },
   "Starwind UI Tooltip Import": {
-    "scope": "typescript",
-    "prefix": "starwind-tooltip-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-tooltip",
     "description": "Starwind UI tooltip import",
     "body": "import { Tooltip, TooltipTrigger, TooltipContent } from \"@/components/starwind/tooltip\";",
   },
+  "Starwind UI Tooltip (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-tooltip",
+    "description": "Starwind UI tooltip import",
+    "body": "import { Tooltip, TooltipTrigger, TooltipContent } from \"@/components/starwind-vue/tooltip\";",
+  },
   "Starwind UI Video Import": {
-    "scope": "typescript",
-    "prefix": "starwind-video-import",
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.astro"
+    ],
+    "prefix": "starwind-video",
     "description": "Starwind UI video import",
     "body": "import { Video } from \"@/components/starwind/video\";",
+  },
+  "Starwind UI Video (Vue) Import": {
+    "scope": "typescript,javascript",
+    "include": [
+      "**/*.vue"
+    ],
+    "prefix": "starwind-video",
+    "description": "Starwind UI video import",
+    "body": "import { Video } from \"@/components/starwind-vue/video\";",
   },
 }
