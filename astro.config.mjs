@@ -17,6 +17,6 @@ export default defineConfig({
         "astro/virtual-modules/transitions-swap-functions.js",
       ],
     },
-    integrations: [vue()],
   },
+  integrations: [vue()],
 });
