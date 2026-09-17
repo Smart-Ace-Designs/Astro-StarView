@@ -12,7 +12,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/vue": "^7.0.2",
+    "@astrojs/vue": "^7.0.3",
     "@starwind-ui/astro": "^1.2.1",
     "@starwind-ui/vue": "^0.1.0",
     "@tabler/icons": "^3.46.0",
