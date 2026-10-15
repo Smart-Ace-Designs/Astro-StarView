@@ -84,7 +84,6 @@ After deploying the Astro **Star View** template you will see the following file
 ├── .prettierrc.mjs
 ├── AGENTS.md
 ├── astro.config.mjs
-├── CLAUDE.md
 ├── package.json
 ├── README.md
 ├── starwind.config.json
