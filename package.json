@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@astrojs/vue": "^7.1.2",
-    "@starwind-ui/astro": "^1.4.0",
-    "@starwind-ui/vue": "0.3.0",
+    "@starwind-ui/astro": "^1.5.0",
+    "@starwind-ui/vue": "0.4.0",
     "@tabler/icons": "^3.50.0",
     "@tabler/icons-vue": "^3.50.0",
     "@tailwindcss/forms": "^0.5.11",
