@@ -82,10 +82,10 @@ After deploying the Astro **Star View** template you will see the following file
 │       └── starwind.css
 ├── .gitignore
 ├── .prettierignore
-├── .prettierrc.mjs
 ├── AGENTS.md
 ├── astro.config.mjs
 ├── package.json
+├── prettier.config.ts
 ├── README.md
 ├── starwind.config.json
 └── tsconfig.json

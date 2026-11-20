@@ -1,0 +1,19 @@
+import type { Config } from "prettier";
+import type { PluginOptions } from "prettier-plugin-tailwindcss";
+
+const config: Config & PluginOptions = {
+  printWidth: 80,
+  plugins: ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
+  tailwindStylesheet: "src/styles/starwind.css",
+  tailwindFunctions: ["tv"],
+  overrides: [
+    {
+      files: "*.astro",
+      options: {
+        parser: "astro",
+      },
+    },
+  ],
+};
+
+export default config;
